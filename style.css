@@ -1,0 +1,12 @@
+@import url("./css/reset.css");
+@import url("./css/variable.css");
+@import url("./css/header.css");
+@import url("./css/footer.css");
+@import url("./css/icon_design.css");
+
+body{
+    width : 96vw;
+    margin : auto;
+    font-family: sans-serif;
+    background-color: black;
+}
