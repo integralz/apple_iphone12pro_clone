@@ -1,0 +1,48 @@
+.intro{
+    width: 100vw;
+    height: 60vh;
+}
+
+.intro .video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inform_start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    color: var(--white);
+    padding: 20vw;
+}
+.inform_text{
+    font-size: 21px;
+    opacity: 50%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+}
+
+.price{
+    margin: 50px 0;
+    opacity: 50%;
+}
+
+.inform_url{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.watch_event{
+    margin-right: 10px;
+}
+
+.watch_video{
+    margin-left: 10px;
+}
