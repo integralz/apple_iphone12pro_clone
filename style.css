@@ -3,10 +3,22 @@
 @import url("./css/header.css");
 @import url("./css/footer.css");
 @import url("./css/icon_design.css");
+@import url("./css/buy_set_sticky.css");
 
 body{
-    width : 96vw;
     margin : auto;
     font-family: sans-serif;
     background-color: black;
 }
+
+
+header{
+    width: 98vw;
+    margin: auto;
+}
+
+footer{
+    width: 98vw;
+    margin: auto;
+}
+

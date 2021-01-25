@@ -1,5 +1,5 @@
 .top_icon{
-    height: 70px;
+    height: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -9,7 +9,7 @@
     color : white;
     opacity : 70%;
     font-weight: 350;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .header_icon{

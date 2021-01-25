@@ -1,0 +1,36 @@
+.buy_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: ivory;
+    padding: 15px 1vw;
+    position: sticky;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+}
+
+.device_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buy_set{
+    font-size: 11px;
+    font-weight: 350;
+}
+
+.device_information{
+    opacity: 50%;
+    margin-right: 20px;
+}
+
+.device_spec{
+    margin-right: 20px;
+}
+
+.buy{
+    background-color: #347deb;
+    border-radius: 20% / 50%;
+    padding : 5px 10px;
+    margin-right: 5px;
+}
