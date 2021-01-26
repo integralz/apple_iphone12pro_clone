@@ -18,6 +18,10 @@ header{
     margin: auto;
 }
 
+main{
+    z-index: 2;
+}
+
 footer{
     width: 98vw;
     margin: auto;
