@@ -47,11 +47,11 @@
     margin-left: 10px;
 }
 
-.device_size{
+.video_container_size{
     width: 100vw;
 }
 
-.device_size_video{
+.video_size{
     width: 100%;
     object-fit: cover;
 }
@@ -64,4 +64,28 @@
     text-align: center;
     padding: 50px;
     line-height: 5rem;
+}
+
+.device_side_text{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    writing-mode: vertical-lr;
+    color: var(--white);
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.device_side_text1{
+    margin-right: 10px;
+    opacity: 0;
+}
+
+.device_side_text2{
+    opacity: 0;
+}
+
+
+.test{
+    height: 100vh;
 }
