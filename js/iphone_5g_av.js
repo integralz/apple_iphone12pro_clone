@@ -18,7 +18,7 @@ const iphone_5g_av_scene = new ScrollMagic.Scene({
 });
 
 const iphone_5g_av_scene1 = new ScrollMagic.Scene({
-    duration: "90%",
+    duration: "80%",
     triggerElement: for_iphone_5g_av_text_start,
     triggerHook: 0
 
