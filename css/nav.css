@@ -1,0 +1,80 @@
+.buy_clever{
+    width: 70%;
+    padding : 10vh 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    text-align: center;
+}
+
+.buy_clever_text{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.nav_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav_box span{
+    width: 40%;
+}
+
+.buy_clever_title{
+    font-size: 20px;
+    height : 50px;
+}
+
+.buy_clever_sub{
+    margin: 20px 0;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.more_information_button{
+    color : #42b0f5;
+}
+
+.consult{
+    position: relative;
+    left: 10vw;
+    padding: 10vh 5vw;
+    width : 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color : var(--white);
+    text-align: center;
+    border-top: 1px solid rgb(255,255,255, 0.5);
+}
+
+.consult a{
+    margin-top: 40px;
+    width: 40%;
+}
+
+.consult i{
+    font-size: 30px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+.consult_title{
+    height: 50px;
+    font-size: 20px;
+}
+
+.consult_sub{
+    font-size: 12px;
+}
+
+.consult_button{
+    margin-top: 12px;
+    font-size: 12px;
+    color: #42b0f5
+}
