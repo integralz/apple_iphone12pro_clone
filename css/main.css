@@ -130,10 +130,12 @@
 }
 
 .iphone_5g_text2{
+    padding: 0 15vw;
     font-size: 30px;
     font-weight: bold;
     color: #34c3eb;
     margin-bottom: 5vh;
+    text-align: center;
 }
 
 .iphone_button{
@@ -341,29 +343,36 @@
 
 .more_information_text{
     font-size: 35px;
+    text-align: center;
 }
 
 .more_information1{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
     text-align: center;
 }
 
+.more_information_text1{
+    width: 100%;
+    margin-top : 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .more_information span{
-    width : 33.3%;
-    padding: 0 12px;
+    width: 30%;
 }
 
 .more_information_title{
-    font-size: 14px;
-    height: 30px;
+    font-size: 13px;
 }
 
 .more_information_sub{
-    margin-top: 20px;
-    font-size: 14px;
+    font-size: 13px;
     opacity: 0.5;
 }
