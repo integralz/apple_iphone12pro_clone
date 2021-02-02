@@ -17,27 +17,48 @@
 .nav_box {
     width: 70%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.nav_box span{
-    width: 40%;
+.nav_title_box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.buy_clever_title{
-    font-size: 20px;
-    height : 50px;
+.nav_sub_box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
 }
 
-.buy_clever_sub{
-    margin: 20px 0;
+.nav_title{
+    font-size: 18px;
+}
+
+.nav_sub{
     font-size: 15px;
     opacity: 0.5;
 }
 
-.more_information_button{
-    color : #42b0f5;
+.nav_box span{
+    width: 45%;
+}
+
+.nav_button_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_button{
+    margin-top: 20px;
+    width: 45%;
+    color: #42b0f5;
+    margin-bottom: 20px;
 }
 
 .consult{
@@ -54,20 +75,21 @@
     border-top: 1px solid rgb(255,255,255, 0.5);
 }
 
-.consult a{
-    margin-top: 40px;
-    width: 40%;
+.nav_icon_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.consult i{
-    font-size: 30px;
-    margin-bottom: 10px;
+.nav_icon_box i{
+    font-size: 35px;
+    width: 45%;
+    margin: 20px 0;
     opacity: 0.5;
 }
 
 .consult_title{
-    height: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .consult_sub{
@@ -75,10 +97,10 @@
 }
 
 .consult_button{
-    margin-top: 12px;
+    margin-top: 20px;
+    width: 45%;
+    color: #42b0f5;
+    margin-bottom: 20px;
     font-size: 12px;
-    color: #42b0f5
 }
-.nav_box a{
-    width: 40%;
-}
+
