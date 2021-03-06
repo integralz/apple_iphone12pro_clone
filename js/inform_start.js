@@ -9,8 +9,4 @@ const inform_start_scene = new ScrollMagic.Scene({
 
 })
 .setTween(inform_start_text)
-.addTo(inform_start_controller)
-.addIndicators({
-    name:"1"
-});
-
+.addTo(inform_start_controller);

@@ -14,10 +14,8 @@ const camera_scene = new ScrollMagic.Scene({
     triggerHook: 0.1
 })
 .setPin(camera_video)
-.addTo(camera_controller)
-.addIndicators({
-    name: "1"
-});
+.addTo(camera_controller);
+
 
 const camera_scene1 = new ScrollMagic.Scene({
     duration: "40%",
@@ -26,10 +24,8 @@ const camera_scene1 = new ScrollMagic.Scene({
 
 })
 .setTween(camera_text1)
-.addTo(lidar_controller)
-.addIndicators({
-    name:"2"
-});
+.addTo(lidar_controller);
+
 
 const camera_scene2 = new ScrollMagic.Scene({
     duration: "10%",
@@ -38,10 +34,8 @@ const camera_scene2 = new ScrollMagic.Scene({
 
 })
 .setTween(camera_text2)
-.addTo(lidar_controller)
-.addIndicators({
-    name:"2"
-});
+.addTo(lidar_controller);
+
 
 let camera_accelamount = 2.5; 
 let camera_delay = 0;

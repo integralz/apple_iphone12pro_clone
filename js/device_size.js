@@ -10,10 +10,7 @@ const device_size_scene = new ScrollMagic.Scene({
     triggerHook: 0.1
 })
 .setPin(device_size)
-.addTo(device_size_controller)
-.addIndicators({
-    name: "1"
-});
+.addTo(device_size_controller);
 
 const device_size_text_scene1 = new ScrollMagic.Scene({
     duration: "180%",
@@ -21,10 +18,7 @@ const device_size_text_scene1 = new ScrollMagic.Scene({
     triggerHook: 0.1
 })
 .setTween(device_size_text1)
-.addTo(device_size_controller)
-.addIndicators({
-    name:"1"
-});
+.addTo(device_size_controller);
 
 let device_size_accelamount = 1.6; 
 let device_size_delay = 0;

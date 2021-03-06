@@ -13,10 +13,7 @@ const iphone_5g_scene1 = new ScrollMagic.Scene({
 
 })
 .setTween(iphone_5g_hello_text1)
-.addTo(iphone_5g_controller)
-.addIndicators({
-    name:"1"
-});
+.addTo(iphone_5g_controller);
 
 const iphone_5g_scene2 = new ScrollMagic.Scene({
     duration: "50%",
@@ -25,7 +22,4 @@ const iphone_5g_scene2 = new ScrollMagic.Scene({
 
 })
 .setTween(iphone_5g_hello_text2)
-.addTo(iphone_5g_controller)
-.addIndicators({
-    name:"1"
-});
+.addTo(iphone_5g_controller);

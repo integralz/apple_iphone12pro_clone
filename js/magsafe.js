@@ -11,10 +11,7 @@ const magsafe_scene = new ScrollMagic.Scene({
     triggerHook: 0.1
 })
 .setPin(magsafe_video)
-.addTo(magsafe_controller)
-.addIndicators({
-    name: "1"
-});
+.addTo(magsafe_controller);
 
 const magsafe_scene1 = new ScrollMagic.Scene({
     duration: "40%",
@@ -23,10 +20,7 @@ const magsafe_scene1 = new ScrollMagic.Scene({
 
 })
 .setTween(magsafe_text1)
-.addTo(magsafe_controller)
-.addIndicators({
-    name:"2"
-});
+.addTo(magsafe_controller);
 
 let magsafe_accelamount = 1.5; 
 let magsafe_delay = 0;

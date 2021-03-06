@@ -12,11 +12,7 @@ const cpu_scene = new ScrollMagic.Scene({
     triggerHook: 0.1
 })
 .setPin(cpu_video)
-.addTo(cpu_controller)
-.addIndicators({
-    name: "1"
-});
-
+.addTo(cpu_controller);
 
 const cpu_scene1 = new ScrollMagic.Scene({
     duration: "80%",
@@ -25,10 +21,7 @@ const cpu_scene1 = new ScrollMagic.Scene({
 
 })
 .setTween(cpu_text)
-.addTo(cpu_controller)
-.addIndicators({
-    name:"2"
-});
+.addTo(cpu_controller);
 
 const cpu_scene2 = new ScrollMagic.Scene({
     duration: "180%",
@@ -37,10 +30,7 @@ const cpu_scene2 = new ScrollMagic.Scene({
 
 })
 .setTween(cpu_text1)
-.addTo(cpu_controller)
-.addIndicators({
-    name:"2"
-});
+.addTo(cpu_controller);
 
 let cpu_accelamount = 1.2; 
 let cpu_delay = 0;

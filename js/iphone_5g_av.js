@@ -12,10 +12,7 @@ const iphone_5g_av_scene = new ScrollMagic.Scene({
     triggerHook: 0
 })
 .setPin(iphone_5g_av)
-.addTo(iphone_5g_av_controller)
-.addIndicators({
-    name: "1"
-});
+.addTo(iphone_5g_av_controller);
 
 const iphone_5g_av_scene1 = new ScrollMagic.Scene({
     duration: "80%",
@@ -24,10 +21,7 @@ const iphone_5g_av_scene1 = new ScrollMagic.Scene({
 
 })
 .setTween(iphone_5g_av_text)
-.addTo(iphone_5g_av_controller)
-.addIndicators({
-    name:"2"
-});
+.addTo(iphone_5g_av_controller);
 
 let iphone_5g_av_accelamount = 0.8; 
 let iphone_5g_av_delay = 0;

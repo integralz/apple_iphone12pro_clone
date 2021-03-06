@@ -13,10 +13,7 @@ const device_side_scene = new ScrollMagic.Scene({
     triggerHook: 0.1
 })
 .setPin(device_side)
-.addTo(device_side_controller)
-.addIndicators({
-    name: "1"
-});
+.addTo(device_side_controller);
 
 const device_side_text_scene1 = new ScrollMagic.Scene({
     duration: "70%",
@@ -25,10 +22,7 @@ const device_side_text_scene1 = new ScrollMagic.Scene({
 
 })
 .setTween(device_side_text_sum)
-.addTo(device_side_controller)
-.addIndicators({
-    name: "2"
-});
+.addTo(device_side_controller);
 
 let device_side_accelamount = 0.8; 
 let device_side_delay = 0;
